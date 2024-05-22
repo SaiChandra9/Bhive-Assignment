@@ -1,14 +1,14 @@
 import React from "react";
+import logo from "./Vector-1-1.png";
 import "./index.css";
 
 export default function WhyUs() {
-  const logo: string = require("./Vector-1-1.png").default;
   return (
     <div className="why-us-wrapper">
       Why Choose Us
       <div className="first-row-wrapper">
         <div className="first-row-elements">
-          <img src="logo" alt="render"></img>
+          <img src={logo} alt="render"></img>
           Community Events
         </div>
         <div className="first-row-elements">Gym Facilitites</div>
