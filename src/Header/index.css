@@ -1,0 +1,35 @@
+.header {
+  /* background-color: antiquewhite; */
+  height: 50px;
+  /* width: max-content; */
+  border: 1px solid #f2b304;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Header */
+.img-wrapper {
+  padding-left: 5rem;
+}
+
+.phone-wrapper {
+  padding-right: 5rem;
+}
+
+.img {
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 6rem;
+  background-size: contain;
+}
+
+.phone {
+  background-image: url("./phonelogo.png");
+  background-repeat: no-repeat;
+  height: 1.5rem;
+  background-size: contain;
+  width: 1.5rem;
+}

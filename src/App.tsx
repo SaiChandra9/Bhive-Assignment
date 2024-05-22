@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import Header from "./Header/header";
+import Intro from "./Intro/Intro";
+import WhyUs from "./WhyUs/WhyUs";
+import "./App.css";
+
+// Components to be created
+// 1.HEADER
+// 2.HEADING
+// 3.why choose us
+// 4.space overview
+// 5.downlaod app
+// 6.footer
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <Header />
+      <Intro />
+      <WhyUs />
     </div>
   );
 }

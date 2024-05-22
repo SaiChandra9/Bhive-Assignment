@@ -1,0 +1,50 @@
+.why-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .first-row-wrapper {
+  display: flex;
+  justify-content: center;
+} */
+.second-row-wrapper {
+  display: flex;
+  justify-content: center;
+}
+/* .first-row-elements {
+  padding: 5px;
+} */
+.second-row-elements {
+  padding: 5px;
+}
+
+.first-row-wrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000; /* Add your desired border color */
+  margin: 0 5rem 0 5rem;
+}
+.second-row-wrapper {
+  display: flex;
+  justify-content: center;
+  /* border-top: 1px solid #000; Add your desired border color */
+  margin: 0 5rem 0 5rem;
+}
+.first-row-elements,
+.second-row-elements {
+  flex: 1; /*This ensures each element takes equal space*/
+  text-align: center; /* Center-aligns text */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.first-row-elements:not(:last-child) {
+  border-right: 1px solid #000; /* Border color for right side */
+}
+
+.second-row-elements:not(:last-child) {
+  border-right: 1px solid #000; /* Border color for right side */
+}
+
+/* .first-row-elements:last-child { */
+border-left: 1px solid #000; /* Border color for left side */
+/* } */
