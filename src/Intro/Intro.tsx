@@ -6,7 +6,7 @@ export default function Intro() {
   return (
     <div>
       <div className="left-img">
-        {/* <img src={logo}></img> */}
+        <img src={logo}></img>
         <div className="text-content">
           Host your meeting with world-class amenities. Starting at ₹199/-!
         </div>
