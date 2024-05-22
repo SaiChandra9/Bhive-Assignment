@@ -1,8 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
-import Header from "./Header/header";
-import Intro from "./Intro/Intro";
-import WhyUs from "./WhyUs/WhyUs";
+import SeatBooking from "./SeatBooking";
 import "./App.css";
 
 // Components to be created
@@ -14,13 +11,7 @@ import "./App.css";
 // 6.footer
 
 function App() {
-  return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
-      <Header />
-      <Intro />
-      <WhyUs />
-    </div>
-  );
+  return <SeatBooking />;
 }
 
 export default App;

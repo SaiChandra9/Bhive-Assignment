@@ -1,0 +1,21 @@
+.tile-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: aquamarine;
+  height: 13rem;
+}
+
+.title-direction {
+  display: flex;
+  justify-content: space-between;
+  width: max-content;
+}
+
+.buttons {
+  display: flex;
+}
+.img-tag {
+  height: 24px;
+  width: 24px;
+}

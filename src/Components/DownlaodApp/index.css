@@ -1,0 +1,36 @@
+.img-div {
+  /* height: 5rem;
+  width: 5rem; */
+  /* background-color: aqua; */
+}
+
+.img-logo {
+  height: 25rem;
+  width: 25rem;
+}
+.download-store-wrapper {
+  display: flex;
+  padding-top: 1rem;
+  /* justify-content: center; */
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 3rem;
+  padding-top: 6rem;
+}
+.store-img {
+  height: 2rem;
+  /* width: 9.5rem; */
+}
+.wrapper {
+  display: flex;
+  /* margin: 0rem 5rem; */
+  border-radius: 12px;
+  background-color: blanchedalmond;
+  margin-top: 4rem;
+}
+.play-store-img-wrapper {
+  padding-right: 1rem;
+}
