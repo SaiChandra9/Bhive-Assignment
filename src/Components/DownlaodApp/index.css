@@ -34,3 +34,71 @@
 .play-store-img-wrapper {
   padding-right: 1rem;
 }
+
+.container {
+  padding: 20px;
+  /* text-align: center; */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  /* padding: 20px; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 8rem;
+}
+
+.image-container {
+  position: absolute;
+  top: -80px;
+  left: 30px;
+}
+
+.image {
+  width: 100%;
+  /* max-width: 200px;
+   */
+  height: 16rem;
+}
+
+.text-container {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 21rem;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  /* justify-content: space-between; */
+  max-width: 300px;
+  /* margin: auto; */
+}
+
+.button-play-store {
+  text-decoration: none;
+  padding-right: 12px;
+}
+
+.store-badge {
+  width: 120px;
+  height: 2.5rem;
+}
