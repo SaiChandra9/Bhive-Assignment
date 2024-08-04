@@ -16,5 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/Components/DownlaodApp/Header"]
+  "include": [
+    "src",
+    "src/declaration.d.ts",
+    "src/Components/DownlaodApp/Header"
+  ]
 }

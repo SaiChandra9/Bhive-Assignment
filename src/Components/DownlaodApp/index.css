@@ -1,43 +1,6 @@
-.img-div {
-  /* height: 5rem;
-  width: 5rem; */
-  /* background-color: aqua; */
-}
-
-.img-logo {
-  height: 25rem;
-  width: 25rem;
-}
-.download-store-wrapper {
-  display: flex;
-  padding-top: 1rem;
-  /* justify-content: center; */
-}
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0rem 3rem;
-  padding-top: 6rem;
-}
-.store-img {
-  height: 2rem;
-  /* width: 9.5rem; */
-}
-.wrapper {
-  display: flex;
-  /* margin: 0rem 5rem; */
-  border-radius: 12px;
-  background-color: blanchedalmond;
-  margin-top: 4rem;
-}
-.play-store-img-wrapper {
-  padding-right: 1rem;
-}
-
+/* Global styles */
 .container {
   padding: 20px;
-  /* text-align: center; */
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
 }
@@ -54,23 +17,20 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: #fff;
-  /* padding: 20px; */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .image-container {
   position: absolute;
-  top: -80px;
+  top: -140px;
   left: 30px;
 }
 
 .image {
-  width: 100%;
-  /* max-width: 200px;
-   */
-  height: 16rem;
+  width: 300px; /* Set a fixed width for the image */
+  height: 300px; /* Set a fixed height for the image */
 }
 
 .text-container {
@@ -88,9 +48,7 @@
 
 .buttons-container {
   display: flex;
-  /* justify-content: space-between; */
   max-width: 300px;
-  /* margin: auto; */
 }
 
 .button-play-store {
@@ -101,4 +59,66 @@
 .store-badge {
   width: 120px;
   height: 2.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+  .image-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+  }
+
+  .text-container {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .buttons-container {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+  }
+
+  .button-play-store {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .text {
+    display: none;
+  }
+
+  .buttons-container {
+    max-width: none;
+  }
+
+  .store-badge {
+    width: 100%;
+    height: auto;
+  }
+  .buttons-container {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: fit-content;
+  }
 }

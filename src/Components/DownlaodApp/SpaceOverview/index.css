@@ -1,21 +1,15 @@
-.tile-wrapper {
+.space-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-overview-title {
+  color: #1a202c; 
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.space-wrapper {
   display: flex;
   flex-direction: column;
-  width: max-content;
-  background-color: aquamarine;
-  height: 13rem;
-}
-
-.title-direction {
-  display: flex;
-  justify-content: space-between;
-  width: max-content;
-}
-
-.buttons {
-  display: flex;
-}
-.img-tag {
-  height: 24px;
-  width: 24px;
 }

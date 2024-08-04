@@ -1,7 +1,7 @@
 import React from "react";
 import SeatBooking from "./SeatBooking";
 import "./App.css";
-
+import { LocationProvider } from "./Context/LocationContext";
 // Components to be created
 // 1.HEADER
 // 2.HEADING
@@ -11,7 +11,11 @@ import "./App.css";
 // 6.footer
 
 function App() {
-  return <SeatBooking />;
+  return (
+    <LocationProvider>
+      <SeatBooking />
+    </LocationProvider>
+  );
 }
 
 export default App;

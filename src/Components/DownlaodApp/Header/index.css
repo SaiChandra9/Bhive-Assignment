@@ -2,7 +2,7 @@
   /* background-color: antiquewhite; */
   height: 50px;
   /* width: max-content; */
-  border: 1px solid #f2b304;
+  /* border: 1px solid #f2b304; */
   top: 0px;
   width: 100%;
   display: flex;
@@ -32,4 +32,14 @@
   height: 1.5rem;
   background-size: contain;
   width: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .img-wrapper {
+    padding-left: 1rem;
+  }
+
+  .phone-wrapper {
+    padding-right: 1rem;
+  }
 }
