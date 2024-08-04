@@ -12,7 +12,11 @@ export default function Intro() {
           </div>
         </div>
         <div className="right-image-wrapper">
-          <img src={require("./image.png")} className="main-image"></img>
+          <img
+            src={require("./image.png")}
+            className="main-image"
+            alt="main"
+          ></img>
         </div>
       </div>
     </div>

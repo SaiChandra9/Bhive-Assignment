@@ -45,21 +45,30 @@ export default function InfoCard({ item }: InfoCardProps) {
     if (lowerCaseInput.includes("platinum")) {
       return (
         <div className="hi">
-          <img src={require("./static_assets/platinum-icon.png")} alt="Platinum Icon" />
+          <img
+            src={require("./static_assets/platinum-icon.png")}
+            alt="Platinum Icon"
+          />
           <span className="title-cover">Platinum</span>
         </div>
       );
     } else if (lowerCaseInput.includes("campus")) {
       return (
         <div className="hi">
-          <img src={require("./static_assets/campus-icon.png")} alt="Campus Icon" />
+          <img
+            src={require("./static_assets/campus-icon.png")}
+            alt="Campus Icon"
+          />
           <span className="title-cover">Campus</span>
         </div>
       );
     } else {
       return (
         <div className="hi">
-          <img src={require("./static_assets/workspace-icon.png")} alt="Workspace Icon" />
+          <img
+            src={require("./static_assets/workspace-icon.png")}
+            alt="Workspace Icon"
+          />
           <span className="title-cover">Workspace</span>
         </div>
       );
@@ -69,9 +78,18 @@ export default function InfoCard({ item }: InfoCardProps) {
   const Icon = (): JSX.Element => {
     return (
       <div className="arrow">
-        <img src={require("./static_assets/lightStrokeArrow.png")} alt="Light Stroke Arrow" />
-        <img src={require("./static_assets/mediumStrokeArrow.png")} alt="Medium Stroke Arrow" />
-        <img src={require("./static_assets/highStrokeArrow.png")} alt="High Stroke Arrow" />
+        <img
+          src={require("./static_assets/lightStrokeArrow.png")}
+          alt="Light Stroke Arrow"
+        />
+        <img
+          src={require("./static_assets/mediumStrokeArrow.png")}
+          alt="Medium Stroke Arrow"
+        />
+        <img
+          src={require("./static_assets/highStrokeArrow.png")}
+          alt="High Stroke Arrow"
+        />
       </div>
     );
   };
@@ -108,7 +126,10 @@ export default function InfoCard({ item }: InfoCardProps) {
           <div className="title">{item.name}</div>
         </div>
         <div className="logo-wrapper">
-          <img src={require("./static_assets/assistant_direction.png")} alt="Assistant Direction" />
+          <img
+            src={require("./static_assets/assistant_direction.png")}
+            alt="Assistant Direction"
+          />
           <div className="direction-count">6 kms</div>
         </div>
       </div>
@@ -117,7 +138,7 @@ export default function InfoCard({ item }: InfoCardProps) {
         <img
           style={{ height: "100%", width: "100%", objectFit: "cover" }}
           src={require(`./${item.images[0]}`)}
-          alt="Location Image"
+          alt="Location"
         />
       </div>
       <div>
